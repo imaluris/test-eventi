@@ -1,0 +1,110 @@
+{
+  "data": {
+    "post": [],
+    "user": [
+      {
+        "nome": "utente",
+        "cognome": "uno",
+        "email": "miao@bau.it",
+        "password": "$2a$10$JxzaKGSRXYjKfXaivWlILuCKDAqfyQ2iOpDVsJh2KmNL6//Zl4xO2",
+        "createdAt": "2017-08-07T15:42:31.733Z",
+        "updatedAt": "2017-08-07T15:42:31.733Z",
+        "id": 2
+      }
+    ],
+    "organizzatore": [
+      {
+        "nome": "organizzatore",
+        "cognome": "uno",
+        "email": "non@so.it",
+        "password": "$2a$10$aK0QqC51u1kgeNulGObv6egP99CoN/lEFm4kNtPFXDp3.aV1wje46",
+        "company": "ticket italy",
+        "createdAt": "2017-08-07T15:43:03.370Z",
+        "updatedAt": "2017-08-07T15:43:03.370Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "post": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "nome": {
+        "type": "string"
+      },
+      "cognome": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "organizzatore": {
+      "nome": {
+        "type": "string"
+      },
+      "cognome": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "post": {},
+    "user": {
+      "id": 2
+    },
+    "organizzatore": {
+      "id": 1
+    }
+  }
+}
