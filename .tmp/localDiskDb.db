@@ -10,6 +10,15 @@
         "createdAt": "2017-08-07T15:42:31.733Z",
         "updatedAt": "2017-08-07T15:42:31.733Z",
         "id": 2
+      },
+      {
+        "nome": "francesc",
+        "cognome": "grad",
+        "email": "franc@grad.it",
+        "password": "$2a$10$0.D73Lp/mU0y2NZAtH1IbO/ILQaIr2hKQghZ4C8yF8B5uNkmD1baa",
+        "createdAt": "2017-08-07T19:56:30.881Z",
+        "updatedAt": "2017-08-07T19:56:30.881Z",
+        "id": 3
       }
     ],
     "organizzatore": [
@@ -22,6 +31,16 @@
         "createdAt": "2017-08-07T15:43:03.370Z",
         "updatedAt": "2017-08-07T15:43:03.370Z",
         "id": 1
+      },
+      {
+        "nome": "andr",
+        "cognome": "castells",
+        "email": "andr@castells.it",
+        "password": "$2a$10$U.9lxU9Ta5tXhHEfFbiv/e3Kd.HK0tKY3TfqqouCSOrQarDc9i/3C",
+        "company": "si",
+        "createdAt": "2017-08-07T19:57:17.742Z",
+        "updatedAt": "2017-08-07T19:57:17.742Z",
+        "id": 2
       }
     ]
   },
@@ -101,10 +120,10 @@
   "counters": {
     "post": {},
     "user": {
-      "id": 2
+      "id": 3
     },
     "organizzatore": {
-      "id": 1
+      "id": 2
     }
   }
 }

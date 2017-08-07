@@ -17,26 +17,51 @@
 
      login: function(req, res) {
 
-         passport.authenticate('local', function(err, organizzatore, info) {
-             if ((err) || (!organizzatore)) {
+         passport.authenticate('local', function(err, user, info) {
+             if ((err) || (!user)) {
                  return res.send({
                      message: info.message,
-                     organizzatore: organizzatore
+                     user: user
                  });
              }
-             req.logIn(organizzatore, function(err) {
+             req.logIn(user, function(err) {
                  if (err) res.send(err);
                  return res.send({
                      message: info.message,
-                     organizzatore: organizzatore
+                     user: user
                  });
              });
 
          })(req, res);
      },
 
+        loginOrg: function(req, res) {
+
+         passport.authenticate('orgStrat', function(err, org, info) {
+             if ((err) || (!org)) {
+                 return res.send({
+                     message: info.message,
+                     org: org
+                 });
+             }
+             req.logIn(org, function(err) {
+                 if (err) res.send(err);
+                 return res.send({
+                     message: info.message,
+                     org: org
+                 });
+             });
+
+         })(req, res);
+     },
+
+    logoutOrg: function(req, res) {
+         req.logout();
+         res.redirect('/');
+     },
+
      logout: function(req, res) {
          req.logout();
          res.redirect('/');
-     }
+     },
  };
