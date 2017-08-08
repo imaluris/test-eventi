@@ -56,8 +56,12 @@ module.exports.routes = {
     view: 'signup'
   },
 
-    'get /signupOrg': {
+  'get /signupOrg': {
     view: 'signupOrg'
+  },
+
+  'get /eventi': {
+    view: 'eventi'
   }
 
   /***************************************************************************
