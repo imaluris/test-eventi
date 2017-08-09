@@ -26,10 +26,7 @@
              }
              req.logIn(user, function(err) {
                  if (err) res.send(err);
-                 return res.send({
-                     message: info.message,
-                     user: user
-                 });
+                 return res.redirect('/eventi');
              });
 
          })(req, res);
@@ -46,10 +43,7 @@
              }
              req.logIn(org, function(err) {
                  if (err) res.send(err);
-                 return res.send({
-                     message: info.message,
-                     org: org
-                 });
+                 return res.redirect('/eventi');
              });
 
          })(req, res);
