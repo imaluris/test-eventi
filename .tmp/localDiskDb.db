@@ -42,6 +42,62 @@
         "updatedAt": "2017-08-07T19:57:17.742Z",
         "id": 2
       }
+    ],
+    "eventi": [
+      {
+        "artista": "Einaudi",
+        "luogo": "Roma",
+        "data": "1605-11-05T00:00:00.000Z",
+        "prezzo": 20,
+        "createdAt": "2017-08-09T20:02:08.264Z",
+        "updatedAt": "2017-08-09T20:02:08.264Z",
+        "id": 1
+      },
+      {
+        "artista": "Einaudi",
+        "luogo": "Roma",
+        "data": "2017-10-06T22:00:00.000Z",
+        "prezzo": 20,
+        "createdAt": "2017-08-09T20:04:02.348Z",
+        "updatedAt": "2017-08-09T20:04:02.348Z",
+        "id": 2
+      },
+      {
+        "artista": "Einaudi",
+        "luogo": "Roma",
+        "data": "2001-10-16T22:00:00.000Z",
+        "prezzo": 20,
+        "createdAt": "2017-08-09T20:04:21.126Z",
+        "updatedAt": "2017-08-09T20:04:21.126Z",
+        "id": 3
+      },
+      {
+        "artista": "Einaudi",
+        "luogo": "Roma",
+        "data": "2001-10-16T22:00:00.000Z",
+        "prezzo": 20,
+        "createdAt": "2017-08-09T20:05:50.603Z",
+        "updatedAt": "2017-08-09T20:05:50.603Z",
+        "id": 4
+      },
+      {
+        "artista": "Einaudi",
+        "luogo": "Roma",
+        "data": "2001-10-16T22:00:00.000Z",
+        "prezzo": 20,
+        "createdAt": "2017-08-09T20:06:00.930Z",
+        "updatedAt": "2017-08-09T20:06:00.930Z",
+        "id": 5
+      },
+      {
+        "artista": "Einaudi",
+        "luogo": "Roma",
+        "data": "2001-10-16T22:00:00.000Z",
+        "prezzo": 22.89,
+        "createdAt": "2017-08-09T20:06:09.805Z",
+        "updatedAt": "2017-08-09T20:06:09.805Z",
+        "id": 6
+      }
     ]
   },
   "schema": {
@@ -115,6 +171,32 @@
       "updatedAt": {
         "type": "datetime"
       }
+    },
+    "eventi": {
+      "artista": {
+        "type": "string"
+      },
+      "luogo": {
+        "type": "string"
+      },
+      "data": {
+        "type": "date"
+      },
+      "prezzo": {
+        "type": "float"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
     }
   },
   "counters": {
@@ -124,6 +206,9 @@
     },
     "organizzatore": {
       "id": 2
+    },
+    "eventi": {
+      "id": 6
     }
   }
 }
