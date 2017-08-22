@@ -42,6 +42,16 @@ passport.use(new LocalStrategy({
   }
 ));
 
+passport.serializeUser(function(org, done) {
+    done(null, org.id);
+});
+
+passport.deserializeUser(function(id, done) {
+    Organizzatore.findOne({ id: id } , function (err, org) {
+        done(err, org);
+    });
+});
+
 passport.use('orgStrat', new LocalStrategy({
     usernameField: 'email',
     passwordField: 'password'

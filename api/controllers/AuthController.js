@@ -43,7 +43,7 @@
              }
              req.logIn(org, function(err) {
                  if (err) res.send(err);
-                 return res.redirect('eventi/eventi');
+                 return res.redirect('/eventi');
              });
 
          })(req, res);
