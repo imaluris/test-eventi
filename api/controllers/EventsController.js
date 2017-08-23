@@ -7,16 +7,11 @@
 
 module.exports = {
 
-// _config: {
-//     rest: true,
-//     shortcuts: true
-// },
-
-// index: (req, res) => {
-//     Events.find().exec( (err, eventis) => {
-//       return res.view({eventi: eventis});
-//     });
-// }
+index: (req, res) => {
+    Events.find().exec( (err, events) => {
+       return res.view('eventi', {'eventi' :events});
+    });
+}
 	
 };
 

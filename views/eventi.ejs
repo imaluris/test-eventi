@@ -1,1 +1,9 @@
 <h1>FRANCESCA STUPIDA</h1>
+
+<% eventi.forEach(function(events)  { %>
+    <li><%= events.artista %> 
+        <%= events.luogo %> 
+        <%= events.data %>
+        <%= events.prezzo %>
+    </li>
+<% }); %>
