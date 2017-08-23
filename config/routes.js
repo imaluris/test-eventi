@@ -44,6 +44,14 @@ module.exports.routes = {
        view: 'loginOrg'
   },
 
+    'get /eventi': {
+    view: 'eventi'
+  },
+
+  'get /addEvento': {
+    view: 'addEvento'
+  },
+
   'post /login': 'AuthController.login',
 
   'post /loginOrg': 'AuthController.loginOrg',
@@ -58,10 +66,6 @@ module.exports.routes = {
 
   'get /signupOrg': {
     view: 'signupOrg'
-  },
-
-  'get /eventi': {
-    view: 'eventi'
   }
 
   /***************************************************************************

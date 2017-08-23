@@ -19,6 +19,15 @@
         "createdAt": "2017-08-07T19:56:30.881Z",
         "updatedAt": "2017-08-07T19:56:30.881Z",
         "id": 3
+      },
+      {
+        "nome": "andrea",
+        "cognome": "cappe",
+        "email": "andrea.93@hotmail.it",
+        "password": "$2a$10$sUazvyr4A2Q6TFNAPJD1t.2MbbrfV8Niz/Me0Lyqx1scKFGDZr69y",
+        "createdAt": "2017-08-22T15:46:56.918Z",
+        "updatedAt": "2017-08-22T15:46:56.918Z",
+        "id": 4
       }
     ],
     "organizzatore": [
@@ -43,60 +52,24 @@
         "id": 2
       }
     ],
-    "eventi": [
+    "events": [
       {
-        "artista": "Einaudi",
-        "luogo": "Roma",
-        "data": "1605-11-05T00:00:00.000Z",
-        "prezzo": 20,
-        "createdAt": "2017-08-09T20:02:08.264Z",
-        "updatedAt": "2017-08-09T20:02:08.264Z",
+        "artista": "dioporco",
+        "luogo": "nonfunziona",
+        "data": "1993-07-12T22:00:00.000Z",
+        "prezzo": 12,
+        "createdAt": "2017-08-23T17:45:57.273Z",
+        "updatedAt": "2017-08-23T17:45:57.273Z",
         "id": 1
       },
       {
-        "artista": "Einaudi",
-        "luogo": "Roma",
-        "data": "2017-10-06T22:00:00.000Z",
-        "prezzo": 20,
-        "createdAt": "2017-08-09T20:04:02.348Z",
-        "updatedAt": "2017-08-09T20:04:02.348Z",
+        "artista": "cazzo",
+        "luogo": "adessofunziona",
+        "data": "2017-08-22T22:00:00.000Z",
+        "prezzo": 24,
+        "createdAt": "2017-08-23T17:47:19.939Z",
+        "updatedAt": "2017-08-23T17:47:19.939Z",
         "id": 2
-      },
-      {
-        "artista": "Einaudi",
-        "luogo": "Roma",
-        "data": "2001-10-16T22:00:00.000Z",
-        "prezzo": 20,
-        "createdAt": "2017-08-09T20:04:21.126Z",
-        "updatedAt": "2017-08-09T20:04:21.126Z",
-        "id": 3
-      },
-      {
-        "artista": "Einaudi",
-        "luogo": "Roma",
-        "data": "2001-10-16T22:00:00.000Z",
-        "prezzo": 20,
-        "createdAt": "2017-08-09T20:05:50.603Z",
-        "updatedAt": "2017-08-09T20:05:50.603Z",
-        "id": 4
-      },
-      {
-        "artista": "Einaudi",
-        "luogo": "Roma",
-        "data": "2001-10-16T22:00:00.000Z",
-        "prezzo": 20,
-        "createdAt": "2017-08-09T20:06:00.930Z",
-        "updatedAt": "2017-08-09T20:06:00.930Z",
-        "id": 5
-      },
-      {
-        "artista": "Einaudi",
-        "luogo": "Roma",
-        "data": "2001-10-16T22:00:00.000Z",
-        "prezzo": 22.89,
-        "createdAt": "2017-08-09T20:06:09.805Z",
-        "updatedAt": "2017-08-09T20:06:09.805Z",
-        "id": 6
       }
     ]
   },
@@ -197,18 +170,47 @@
       "updatedAt": {
         "type": "datetime"
       }
+    },
+    "events": {
+      "artista": {
+        "type": "string"
+      },
+      "luogo": {
+        "type": "string"
+      },
+      "data": {
+        "type": "date"
+      },
+      "prezzo": {
+        "type": "float"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
     }
   },
   "counters": {
     "post": {},
     "user": {
-      "id": 3
+      "id": 4
     },
     "organizzatore": {
       "id": 2
     },
     "eventi": {
       "id": 6
+    },
+    "events": {
+      "id": 2
     }
   }
 }
