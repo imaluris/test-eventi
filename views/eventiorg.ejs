@@ -1,11 +1,11 @@
 <h1>LISTA EVENTI</h1>
 
-<% eventi.forEach(function(events)  { %>
+<% eventiOrg.forEach(function(events)  { %>
     <li><%= events.artista %> 
         <%= events.luogo %> 
         <%= events.data %>
         <%= events.prezzo %>
     </li>
 <% }); %>
-
-<h1>GAY</h1>
+<H1>EVENTIORG</H1>
+<button onclick="window.location.href='/addEvento';">Aggiungi Evento</button>
