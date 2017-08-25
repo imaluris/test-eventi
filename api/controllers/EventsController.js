@@ -15,7 +15,7 @@ baseEvents: (req, res) => {
 
 baseEventsOrg: (req, res) => {
     Events.find().exec( (err, events) => {
-        return res.view('eventiOrg',{eventiOrg: events});
+        return res.view('eventiorg',{eventiOrg: events});
     });
 }
 	
