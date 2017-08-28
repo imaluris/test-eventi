@@ -60,11 +60,11 @@ module.exports.routes = {
 
   '/logoutOrg': 'AuthController.logoutOrg',
 
-  'get /signup': {
+  '/signup': {
     view: 'signup'
   },
 
-  'get /signupOrg': {
+  '/signupOrg': {
     view: 'signupOrg'
   }
 
