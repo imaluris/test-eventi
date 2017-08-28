@@ -28,6 +28,15 @@
         "createdAt": "2017-08-22T15:46:56.918Z",
         "updatedAt": "2017-08-22T15:46:56.918Z",
         "id": 4
+      },
+      {
+        "nome": "francesco",
+        "cognome": "totti",
+        "email": "fra@totti.it",
+        "password": "$2a$10$6hOf0exWMmt0NXdcdn4WQ.a4caRAGiLubYLfKE9QkSfBdnrut7Lwy",
+        "createdAt": "2017-08-28T23:25:18.646Z",
+        "updatedAt": "2017-08-28T23:25:18.646Z",
+        "id": 5
       }
     ],
     "organizzatore": [
@@ -201,7 +210,7 @@
   "counters": {
     "post": {},
     "user": {
-      "id": 4
+      "id": 5
     },
     "organizzatore": {
       "id": 2
