@@ -7,6 +7,12 @@
 
 module.exports = {
 
+    _config: {
+        actions: true,
+        shortcuts: true,
+        rest: true
+    },
+
 baseEvents: (req, res) => {
     Events.find().exec( (err, events) => {
         return res.view('eventi',{eventi: events});
