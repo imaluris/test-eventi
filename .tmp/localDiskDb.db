@@ -1,38 +1,32 @@
 {
   "data": {
-    "post": [],
-    "user": [],
+    "events": [],
     "organizzatore": [],
-    "events": []
+    "user": [
+      {
+        "nome": "andrea",
+        "cognome": "castellani",
+        "email": "miao@bau.it",
+        "password": "$2a$10$nYZWTsebtq8b7N3pupPBtucYtTSiwpf6dA5ew/.5k.g3OHfVR5C.a",
+        "createdAt": "2017-09-05T19:42:35.122Z",
+        "updatedAt": "2017-09-05T19:42:35.122Z",
+        "id": 1
+      }
+    ]
   },
   "schema": {
-    "post": {
-      "id": {
-        "type": "integer",
-        "autoIncrement": true,
-        "primaryKey": true,
-        "unique": true
-      },
-      "createdAt": {
-        "type": "datetime"
-      },
-      "updatedAt": {
-        "type": "datetime"
-      }
-    },
-    "user": {
-      "nome": {
+    "events": {
+      "artista": {
         "type": "string"
       },
-      "cognome": {
+      "luogo": {
         "type": "string"
       },
-      "email": {
-        "type": "string",
-        "unique": true
+      "data": {
+        "type": "date"
       },
-      "password": {
-        "type": "string"
+      "prezzo": {
+        "type": "float"
       },
       "id": {
         "type": "integer",
@@ -77,44 +71,19 @@
         "type": "datetime"
       }
     },
-    "eventi": {
-      "artista": {
+    "user": {
+      "nome": {
         "type": "string"
       },
-      "luogo": {
+      "cognome": {
         "type": "string"
       },
-      "data": {
-        "type": "date"
-      },
-      "prezzo": {
-        "type": "float"
-      },
-      "id": {
-        "type": "integer",
-        "autoIncrement": true,
-        "primaryKey": true,
+      "email": {
+        "type": "string",
         "unique": true
       },
-      "createdAt": {
-        "type": "datetime"
-      },
-      "updatedAt": {
-        "type": "datetime"
-      }
-    },
-    "events": {
-      "artista": {
+      "password": {
         "type": "string"
-      },
-      "luogo": {
-        "type": "string"
-      },
-      "data": {
-        "type": "date"
-      },
-      "prezzo": {
-        "type": "float"
       },
       "id": {
         "type": "integer",
@@ -131,18 +100,10 @@
     }
   },
   "counters": {
-    "post": {},
+    "events": {},
+    "organizzatore": {},
     "user": {
-      "id": 5
-    },
-    "organizzatore": {
-      "id": 2
-    },
-    "eventi": {
-      "id": 6
-    },
-    "events": {
-      "id": 2
+      "id": 1
     }
   }
 }
