@@ -48,7 +48,7 @@ module.exports.routes = {
 
   '/eventiorg': 'EventsController.baseEventsOrg',
 
-  'get /addEvento': {
+  '/addEvento': {
     view: 'addEvento'
   },
 
