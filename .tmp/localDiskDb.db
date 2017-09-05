@@ -1,86 +1,9 @@
 {
   "data": {
     "post": [],
-    "user": [
-      {
-        "nome": "utente",
-        "cognome": "uno",
-        "email": "miao@bau.it",
-        "password": "$2a$10$JxzaKGSRXYjKfXaivWlILuCKDAqfyQ2iOpDVsJh2KmNL6//Zl4xO2",
-        "createdAt": "2017-08-07T15:42:31.733Z",
-        "updatedAt": "2017-08-07T15:42:31.733Z",
-        "id": 2
-      },
-      {
-        "nome": "francesc",
-        "cognome": "grad",
-        "email": "franc@grad.it",
-        "password": "$2a$10$0.D73Lp/mU0y2NZAtH1IbO/ILQaIr2hKQghZ4C8yF8B5uNkmD1baa",
-        "createdAt": "2017-08-07T19:56:30.881Z",
-        "updatedAt": "2017-08-07T19:56:30.881Z",
-        "id": 3
-      },
-      {
-        "nome": "andrea",
-        "cognome": "cappe",
-        "email": "andrea.93@hotmail.it",
-        "password": "$2a$10$sUazvyr4A2Q6TFNAPJD1t.2MbbrfV8Niz/Me0Lyqx1scKFGDZr69y",
-        "createdAt": "2017-08-22T15:46:56.918Z",
-        "updatedAt": "2017-08-22T15:46:56.918Z",
-        "id": 4
-      },
-      {
-        "nome": "francesco",
-        "cognome": "totti",
-        "email": "fra@totti.it",
-        "password": "$2a$10$6hOf0exWMmt0NXdcdn4WQ.a4caRAGiLubYLfKE9QkSfBdnrut7Lwy",
-        "createdAt": "2017-08-28T23:25:18.646Z",
-        "updatedAt": "2017-08-28T23:25:18.646Z",
-        "id": 5
-      }
-    ],
-    "organizzatore": [
-      {
-        "nome": "organizzatore",
-        "cognome": "uno",
-        "email": "non@so.it",
-        "password": "$2a$10$aK0QqC51u1kgeNulGObv6egP99CoN/lEFm4kNtPFXDp3.aV1wje46",
-        "company": "ticket italy",
-        "createdAt": "2017-08-07T15:43:03.370Z",
-        "updatedAt": "2017-08-07T15:43:03.370Z",
-        "id": 1
-      },
-      {
-        "nome": "andr",
-        "cognome": "castells",
-        "email": "andr@castells.it",
-        "password": "$2a$10$U.9lxU9Ta5tXhHEfFbiv/e3Kd.HK0tKY3TfqqouCSOrQarDc9i/3C",
-        "company": "si",
-        "createdAt": "2017-08-07T19:57:17.742Z",
-        "updatedAt": "2017-08-07T19:57:17.742Z",
-        "id": 2
-      }
-    ],
-    "events": [
-      {
-        "artista": "dioporco",
-        "luogo": "nonfunziona",
-        "data": "1993-07-12T22:00:00.000Z",
-        "prezzo": 12,
-        "createdAt": "2017-08-23T17:45:57.273Z",
-        "updatedAt": "2017-08-23T17:45:57.273Z",
-        "id": 1
-      },
-      {
-        "artista": "cazzo",
-        "luogo": "adessofunziona",
-        "data": "2017-08-22T22:00:00.000Z",
-        "prezzo": 24,
-        "createdAt": "2017-08-23T17:47:19.939Z",
-        "updatedAt": "2017-08-23T17:47:19.939Z",
-        "id": 2
-      }
-    ]
+    "user": [],
+    "organizzatore": [],
+    "events": []
   },
   "schema": {
     "post": {
