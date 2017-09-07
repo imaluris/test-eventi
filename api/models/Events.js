@@ -23,7 +23,10 @@ module.exports = {
     prezzo: {
       type: 'float',
       required: true
-    }
+    },
+    compagnia: {
+      type: 'float'
+    },
   }
 
 };

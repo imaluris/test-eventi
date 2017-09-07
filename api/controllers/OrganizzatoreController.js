@@ -12,6 +12,13 @@ module.exports = {
         shortcuts: true,
         rest: true
     },
+
+    orgCompany: (req, res) => {
+        Organizzatore.find().exec( (err, org) => {
+            return res.view('addEvento',{addEvento: org});
+            
+        });       
+    },
 	
 };
 

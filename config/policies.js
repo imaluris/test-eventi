@@ -42,6 +42,11 @@ module.exports.policies = {
     'baseEventsOrg': 'isAuthenticatedOrg'
   },
 
+  'OrganizzatoreController': {
+    'orgCompany': 'isAuthenticatedOrg'
+  },
+
+
 	// RabbitController: {
 
 		// Apply the `false` policy as the default for all of RabbitController's actions

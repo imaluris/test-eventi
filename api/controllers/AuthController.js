@@ -43,10 +43,14 @@
              }
              req.logIn(org, function(err) {
                  if (err) res.send(err);
-                 return res.redirect('/eventiorg');
+                 return res.send({
+                    message: info.message,
+                    org: org
+                });
              });
 
          })(req, res);
+         
      },
 
     logoutOrg: function(req, res) {

@@ -72,7 +72,8 @@ passport.use('orgStrat', new LocalStrategy({
           var returnOrg = {
             email: org.email,
             createdAt: org.createdAt,
-            id: org.id
+            id: org.id,
+            company: org.company
           };
           return done(null, returnOrg, {
             message: 'Logged In Successfully'
