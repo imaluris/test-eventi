@@ -72,6 +72,24 @@
         "createdAt": "2017-09-08T14:10:20.414Z",
         "updatedAt": "2017-09-08T14:10:20.414Z",
         "id": 8
+      },
+      {
+        "artista": "Andrea Castellani",
+        "luogo": "Terni",
+        "data": "2018-07-12T22:00:00.000Z",
+        "prezzo": 15,
+        "createdAt": "2017-09-08T14:27:36.221Z",
+        "updatedAt": "2017-09-08T14:27:36.221Z",
+        "id": 9
+      },
+      {
+        "artista": "Andrea Castellani",
+        "luogo": "Terni",
+        "data": "2018-07-12T22:00:00.000Z",
+        "prezzo": 15,
+        "createdAt": "2017-09-08T14:27:39.274Z",
+        "updatedAt": "2017-09-08T14:27:39.274Z",
+        "id": 10
       }
     ],
     "organizzatore": [
@@ -216,7 +234,7 @@
   },
   "counters": {
     "events": {
-      "id": 8
+      "id": 10
     },
     "organizzatore": {
       "id": 2
