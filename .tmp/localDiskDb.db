@@ -6,6 +6,7 @@
         "luogo": "Roma",
         "data": "2017-11-11T23:00:00.000Z",
         "prezzo": 80,
+        "compagnia": "Ticketone",
         "createdAt": "2017-09-06T18:29:01.601Z",
         "updatedAt": "2017-09-06T18:29:01.601Z",
         "id": 1
@@ -15,6 +16,7 @@
         "luogo": "Milano",
         "data": "2017-10-23T22:00:00.000Z",
         "prezzo": 70,
+        "compagnia": "Ticketone",
         "createdAt": "2017-09-06T18:29:33.290Z",
         "updatedAt": "2017-09-06T18:29:33.290Z",
         "id": 2
@@ -24,6 +26,7 @@
         "luogo": "Perugia",
         "data": "2018-02-12T23:00:00.000Z",
         "prezzo": 30,
+        "compagnia": "Ticketone",
         "createdAt": "2017-09-06T18:31:15.825Z",
         "updatedAt": "2017-09-06T18:31:15.825Z",
         "id": 3
@@ -33,6 +36,7 @@
         "luogo": "Torino",
         "data": "2018-04-29T22:00:00.000Z",
         "prezzo": 50,
+        "compagnia": "Ticketone",
         "createdAt": "2017-09-06T18:31:58.944Z",
         "updatedAt": "2017-09-06T18:31:58.944Z",
         "id": 4
@@ -42,54 +46,40 @@
         "luogo": "Terni",
         "data": "2019-09-20T22:00:00.000Z",
         "prezzo": 30,
+        "compagnia": "Alianticket",
         "createdAt": "2017-09-08T13:29:42.804Z",
         "updatedAt": "2017-09-08T13:29:42.804Z",
         "id": 5
-      },
-      {
-        "artista": "Tiziano Tetro",
-        "luogo": "Terni",
-        "data": "2019-09-20T22:00:00.000Z",
-        "prezzo": 30,
-        "createdAt": "2017-09-08T13:29:45.769Z",
-        "updatedAt": "2017-09-08T13:29:45.769Z",
-        "id": 6
       },
       {
         "artista": "Valentino Rossi",
         "luogo": "Imola",
         "data": "2018-09-29T22:00:00.000Z",
         "prezzo": 60,
+        "compagnia": "Alianticket",
         "createdAt": "2017-09-08T13:35:39.563Z",
         "updatedAt": "2017-09-08T13:35:39.563Z",
-        "id": 7
+        "id": 6
       },
       {
         "artista": "Francesco Fragi",
         "luogo": "Perugia",
         "data": "2018-02-16T23:00:00.000Z",
         "prezzo": 30,
+        "compagnia": "Alianticket",
         "createdAt": "2017-09-08T14:10:20.414Z",
         "updatedAt": "2017-09-08T14:10:20.414Z",
-        "id": 8
+        "id": 7
       },
       {
         "artista": "Andrea Castellani",
         "luogo": "Terni",
         "data": "2018-07-12T22:00:00.000Z",
         "prezzo": 15,
+        "compagnia": "Alianticket",
         "createdAt": "2017-09-08T14:27:36.221Z",
         "updatedAt": "2017-09-08T14:27:36.221Z",
-        "id": 9
-      },
-      {
-        "artista": "Andrea Castellani",
-        "luogo": "Terni",
-        "data": "2018-07-12T22:00:00.000Z",
-        "prezzo": 15,
-        "createdAt": "2017-09-08T14:27:39.274Z",
-        "updatedAt": "2017-09-08T14:27:39.274Z",
-        "id": 10
+        "id": 8
       }
     ],
     "organizzatore": [
@@ -98,7 +88,7 @@
         "cognome": "castellani",
         "email": "andrea@hotmail.it",
         "password": "$2a$10$zXHc.XJU70bRkOBNzxpAcOXKTkHe2ILU64.msKymKLM2vwwh6YNfG",
-        "company": "mestesso",
+        "company": "Ticketone",
         "createdAt": "2017-09-06T18:28:01.110Z",
         "updatedAt": "2017-09-06T18:28:01.110Z",
         "id": 1
@@ -108,7 +98,7 @@
         "cognome": "gradi",
         "email": "francesco@hotmail.it",
         "password": "$2a$10$7E4QB1z/Uce7XfBnIpVMDOr99mKs8NUKIbGjKyhTU.KThCbsUavOy",
-        "company": "mestesso",
+        "company": "Alianticket",
         "createdAt": "2017-09-06T18:28:18.788Z",
         "updatedAt": "2017-09-06T18:28:18.788Z",
         "id": 2
@@ -234,7 +224,7 @@
   },
   "counters": {
     "events": {
-      "id": 10
+      "id": 8
     },
     "organizzatore": {
       "id": 2
