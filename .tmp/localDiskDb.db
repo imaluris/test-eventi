@@ -63,6 +63,15 @@
         "createdAt": "2017-09-08T13:35:39.563Z",
         "updatedAt": "2017-09-08T13:35:39.563Z",
         "id": 7
+      },
+      {
+        "artista": "Francesco Fragi",
+        "luogo": "Perugia",
+        "data": "2018-02-16T23:00:00.000Z",
+        "prezzo": 30,
+        "createdAt": "2017-09-08T14:10:20.414Z",
+        "updatedAt": "2017-09-08T14:10:20.414Z",
+        "id": 8
       }
     ],
     "organizzatore": [
@@ -207,7 +216,7 @@
   },
   "counters": {
     "events": {
-      "id": 7
+      "id": 8
     },
     "organizzatore": {
       "id": 2
