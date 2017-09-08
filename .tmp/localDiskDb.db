@@ -36,6 +36,24 @@
         "createdAt": "2017-09-06T18:31:58.944Z",
         "updatedAt": "2017-09-06T18:31:58.944Z",
         "id": 4
+      },
+      {
+        "artista": "Tiziano Tetro",
+        "luogo": "Terni",
+        "data": "2019-09-20T22:00:00.000Z",
+        "prezzo": 30,
+        "createdAt": "2017-09-08T13:29:42.804Z",
+        "updatedAt": "2017-09-08T13:29:42.804Z",
+        "id": 5
+      },
+      {
+        "artista": "Tiziano Tetro",
+        "luogo": "Terni",
+        "data": "2019-09-20T22:00:00.000Z",
+        "prezzo": 30,
+        "createdAt": "2017-09-08T13:29:45.769Z",
+        "updatedAt": "2017-09-08T13:29:45.769Z",
+        "id": 6
       }
     ],
     "organizzatore": [
@@ -103,6 +121,9 @@
       },
       "prezzo": {
         "type": "float"
+      },
+      "compagnia": {
+        "type": "string"
       },
       "id": {
         "type": "integer",
@@ -177,7 +198,7 @@
   },
   "counters": {
     "events": {
-      "id": 4
+      "id": 6
     },
     "organizzatore": {
       "id": 2
